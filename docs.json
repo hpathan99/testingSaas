@@ -1,0 +1,17 @@
+{
+  "theme": "mint",
+  "sidebar": [
+    {
+      "title": "Introduction",
+      "link": "/"
+    },
+    {
+      "title": "MDX Example",
+      "link": "/example"
+    }
+  ],
+  "metadata": {
+    "title": "MDX Mintlify Practice",
+    "description": "Practice site for MDX, JSON, and Mintlify integration."
+  }
+}
