@@ -1,0 +1,5 @@
+{
+  "name": "Mintlify Example",
+  "type": "practice",
+  "features": ["MDX", "JSON", "Mintlify"]
+}

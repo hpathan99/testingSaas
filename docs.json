@@ -1,0 +1,44 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "WeSell",
+  "description": "The leading software in marketing and sales reach.",
+  "fonts":{
+    "heading": {
+      "family": "Zolando Sans Expanded"
+    },
+    "body": {
+      "family": "Monda"
+    }
+  },
+  "colors": {
+    "primary": "#d9a24b",
+    "light": "#ce7e00",
+    "dark": "#c67d0a"
+  },
+  "navigation":{
+    "groups": [
+        {
+        "group":"Pages",
+        "pages":[
+            "src/content/index",
+            "src/content/pricing"
+        ]
+    }
+        
+    ]
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "English",
+        "href": "https://pathan.mintlify.app/src/content/index"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com/pathan/pathan"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+---
+title: "Welcome to MDX Practice"
+---
+
+# Hello, MDX!
+
+This is an example of an MDX file. You can use **Markdown** and embed React components below.
+
+export const Highlight = ({ children }) => <span style={{ background: '#ffeeba', padding: '2px 4px' }}>{children}</span>;
+
+<Highlight>MDX lets you use JSX in Markdown!</Highlight>
+
+## JSON Example
+
+Below is some JSON data loaded from a file:
+
+<pre>{JSON.stringify({"name": "Mintlify Example", "type": "practice"}, null, 2)}</pre>
